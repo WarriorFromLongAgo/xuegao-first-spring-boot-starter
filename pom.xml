@@ -11,10 +11,11 @@
     </parent>
 
     <groupId>com.xuegao</groupId>
-    <artifactId>xuegao_first_spring_boot_starter</artifactId>
-    <version>0.0.1</version>
+    <artifactId>xuegao-first-spring-boot-starter</artifactId>
+    <version>0.0.7</version>
+    <packaging>jar</packaging>
 
-    <name>xuegao_first_spring_boot_starter</name>
+    <name>xuegao-first-spring-boot-starter</name>
     <description>Demo project for Spring Boot</description>
 
     <url>https://github.com/WarriorFromLongAgo</url>
@@ -34,9 +35,9 @@
     </developers>
     <scm>
         <tag>master</tag>
-        <connection>https://github.com/WarriorFromLongAgo/xuegao_first_spring_boot_starter</connection>
-        <developerConnection>https://github.com/WarriorFromLongAgo/xuegao_first_spring_boot_starter</developerConnection>
-        <url>https://github.com/WarriorFromLongAgo/xuegao_first_spring_boot_starter</url>
+        <connection>https://github.com/WarriorFromLongAgo/xuegao-first-spring-boot-starter</connection>
+        <developerConnection>https://github.com/WarriorFromLongAgo/xuegao-first-spring-boot-starter</developerConnection>
+        <url>https://github.com/WarriorFromLongAgo/xuegao-first-spring-boot-starter</url>
     </scm>
 
     <properties>
@@ -65,23 +66,23 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.3.0.RELEASE</version>
-                <configuration>
-                    <mainClass>com.xuegao.xuegao_first_spring_boot_starter.XuegaoFirstSpringBootStarterApplication
-                    </mainClass>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>repackage</id>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--                <version>2.3.0.RELEASE</version>-->
+<!--                <configuration>-->
+<!--                    <mainClass>com.xuegao.XuegaoFirstSpringBootStarterApplication-->
+<!--                    </mainClass>-->
+<!--                </configuration>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>repackage</id>-->
+<!--                        <goals>-->
+<!--                            <goal>repackage</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 

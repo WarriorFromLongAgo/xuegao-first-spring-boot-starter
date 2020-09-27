@@ -1,0 +1,2 @@
+# 自动配置的信息
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.xuegao.XuegaoFirstAutoConfiguration
